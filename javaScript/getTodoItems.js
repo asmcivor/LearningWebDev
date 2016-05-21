@@ -13,6 +13,7 @@
         itemList = itemList + obj.checklists[0].checkItems[itemCount].name + '<br>';
     }
     console.log(itemList);
+    document.getElementById("listname").innerHTML = obj.checklist.name;
     document.getElementById("demo").innerHTML = itemList;
 
 
